@@ -1,0 +1,14 @@
+{
+    "name": "AppInstance",
+    "alias": "appinstance",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\AppInstance\\Providers\\AppInstanceServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

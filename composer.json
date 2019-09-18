@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/appinstance",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AppInstance\\Providers\\AppInstanceServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AppInstance\\": ""
+        }
+    }
+}
